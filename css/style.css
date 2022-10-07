@@ -1,0 +1,84 @@
+body{
+  box-sizing: border-box;
+  background: linear-gradient(#a91616, #6a0808) fixed;
+}
+h1{
+  margin:0 15% 0 15%;
+  font-size: 3em;
+  font-weight:  bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+.doSomething{
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  text-align:center;
+
+}
+.doSomething div{
+  width: 250px;
+  padding: 15px;
+  font-size: 1em;
+  font-weight:  bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  background:linear-gradient(#d8e82d,  #8a9512);
+  border-radius: 15px;
+}
+
+.group{
+  max-width: 800px;
+  margin:0 10% 0 10%;
+}
+.gname{
+  display:flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  
+  margin: 1% 2%;
+  padding: 2%;
+  background:linear-gradient(#d8e82d,  #8a9512);
+  color:white;
+  font-size: 2em;
+  font-weight:  bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 15px
+}
+.match{
+  display:flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  text-align:center;
+  margin: 1% 2%;
+  padding: 2%;
+  background:linear-gradient(#a91616, #6a0808);
+  color:white;
+  font-weight:  bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 15px
+}
+
+.date{
+  width: 10%;
+  align-self: center;
+}
+.goals .hyphen{
+  width:10%;
+  align-self: center;
+}
+.country{
+  width:10%;
+  align-self: center;
+  align-items:center;
+  justify-content: center;
+}
+.flag{
+  width: 60px;
+  height: 40px;
+  border: 1px solid black;
+  align-self: center;
+}
