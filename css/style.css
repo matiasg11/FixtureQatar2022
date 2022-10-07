@@ -10,16 +10,28 @@ h1{
   color: white;
 }
 
+main p{
+  margin:0 10% 0 10%;
+  font-size: 1.2em;
+  max-width: 800px;
+  text-align: center;
+  font-weight:  bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
 .doSomething{
   display: flex;
+  margin-left: 10%;
+  max-width: 800px;
   gap: 50px;
-  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
   text-align:center;
 
 }
 .doSomething div{
   width: 250px;
-  padding: 15px;
+  padding: 15px 5px;
   font-size: 1em;
   font-weight:  bold;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -28,7 +40,7 @@ h1{
   border-radius: 15px;
 }
 
-.group{
+.group, .title{
   max-width: 800px;
   margin:0 10% 0 10%;
 }
